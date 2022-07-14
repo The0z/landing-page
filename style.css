@@ -1,0 +1,25 @@
+body {
+    height: 100vh; /* Make body same size as viewport */
+    margin: 0; /* Don't want margins in body messing with flex */
+    overflow: hidden; /* May or may not need! */
+    /* NOTE: font is important, customize it to fit your idea! */
+    font-family: Roboto, sans-serif; /* Use roboto, and sans-serif backup */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#header-logo {
+    font-size: 24px;
+    /* color: #f9faf8 */
+}
+
+#header-links {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* color: #e5e7eb */
+}
+
