@@ -1,2 +1,3 @@
 # landing-page
-From the odin project program
+Structure based on the odin project, content and styling done by me.
+Check out   for a live version.
