@@ -24,6 +24,19 @@ body {
     border: 0;
 }
 
+.content-img-box {
+    text-align: center;
+    width: 100%;
+}
+
+.content-img-style {
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
 #hero-container {
     padding: 0px 10vw 0px 10vw; 
     background-color: #1F2937;
@@ -76,7 +89,26 @@ body {
     gap: 32px;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 15vw;
+    gap: 32px;
+}
 
+#content-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#content-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
 
 
 
