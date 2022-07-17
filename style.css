@@ -37,6 +37,11 @@ body {
     height: 200px;
 }
 
+.promo-p {
+    margin: 0;
+    padding: 0;
+}
+
 #hero-container {
     padding: 0px 10vw 0px 10vw; 
     background-color: #1F2937;
@@ -128,4 +133,22 @@ body {
     margin: 0;
 }
 
+#promo {
+   display: flex;
+   justify-content: space-around; 
+   border-radius: 10px;
+   margin: 10vh 15vw;
+   padding: 48px 0px;
+   background-color: #3882F6;
+   color: #f9faf8;
+   gap: 64px;
+}
 
+#action-btn {
+    border-color: #e5e7eb;
+    border: 2px solid;
+}
+
+#promo-call {
+    font-weight: 700;
+}
