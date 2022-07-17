@@ -110,5 +110,22 @@ body {
     gap: 32px;
 }
 
+#quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10vh 15vw;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px; 
+    color: #1F2937;  
+    background-color: #e5e7eb;
+}
+
+#quote-name {
+    text-align: end;
+    font-weight: 700;
+    margin: 0;
+}
 
 
